@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import ProjectList from './ProjectList';
+import MessagePopUp from './MessagePopUp';
 
 class App extends Component {
   render() {
