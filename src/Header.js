@@ -39,8 +39,8 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <nav class="navbar navbar-expand-md navbar-light">
-        <ul class="navbar-collapse collapse">
+      <nav className="navbar navbar-expand-md navbar-light">
+        <ul className="navbar-collapse collapse">
           {this.headerItems().map((item, key) =>
             <NavItem key={key} { ...item } />
           )}
