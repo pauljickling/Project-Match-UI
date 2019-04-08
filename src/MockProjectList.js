@@ -4,7 +4,7 @@ import Project from './Project';
 class ProjectList extends React.Component {
   projects() {
     return [
-      { title: 'UXR Matching App - Digital Prototype', summary: 'a summary' },
+      { title: 'UXR Matching App - Digital Prototype', summary: 'Developing a working prototype of a matching app for new Code for SF members', channel: '#research' },
       { title: 'ShelterTech', summary: 'summary 2' },
       { title: 'Roadmap to HTML', summary: 'summary 3' },
       { title: 'California OpenJustice', summary: 'summary 4' },
