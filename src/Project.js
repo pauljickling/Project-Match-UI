@@ -18,17 +18,17 @@ class Project extends React.Component {
         <div className="projectCol2">
           <h5>Project Needs & Interests</h5>
           <p><strong>Skills Needed:</strong>
-          {skillsNeeded.map(skill =>
+          {this.attrbiutes.skillsNeeded.map(skill =>
             <li>{skill}</li>
             )}
           </p>
           <p><strong>Learning Opportunities:</strong>
-            {skillsOffered.map(skill =>
+            {this.skillsOffered.map(skill =>
               <li>{skill}</li>
             )}
           </p>
           <p><strong>Civic Interests:</strong>
-            {interests.map(interest =>
+            {this.interests.map(interest =>
               <li>{interest}</li>
             )}
           </p>
@@ -37,12 +37,12 @@ class Project extends React.Component {
         <details>
           <summary>Show project details</summary>
             <p>Pending Tasks
-              {todoItems.map(item =>
+              {this.todoItems.map(item =>
                 <li>{item}</li>
               )}
             </p>
             <p>Progress Made
-              {progressItems.map(item =>
+              {this.progressItems.map(item =>
                 <li>{item}</li>
               )}
             </p>
