@@ -16,7 +16,7 @@ class MockProjectList extends React.Component {
   render() {
     return (
       <div className="ProjectList">
-        <h1>Project List</h1>
+        <h2>Project List</h2>
         {this.projects().map((project, key) =>
           <Project key={key} {...project} />
         )}
